@@ -1,0 +1,35 @@
+// Variables
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans|Rubik:500,700&display=swap");
+
+// Typography
+$type-base: "Nunito Sans", sans-serif;
+$type-heading: "Rubik", sans-serif;
+$type-linewidth: 38em;
+$type-color-body: rgba(0, 0, 0, 0.8);
+$type-color-headings: #000;
+
+// Colors
+$off-white: #f5f6fa;
+$grey-accent: #dfe6e9;
+$dark-accent: #101820;
+$dark-blue: #384d5e;
+$blue: #006980;
+$light-blue: #008ead;
+$pink: #d7a2a4;
+$light-pink: #e3b8b6;
+$border-color: rgba(178, 190, 195, 0.4);
+
+// Styles
+$border-radius: 5px;
+$btn-border-radius: 35px;
+$cubic-ease: cubic-bezier(0.3, 0.71, 0.21, 1.03);
+$box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.02);
+$header-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.302);
+
+// Breakpoints
+$breakpoint-small: 768px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
+
+// Easings
+$cubic-ease: cubic-bezier(0.3, 0.71, 0.21, 1.03);

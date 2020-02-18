@@ -1,8 +1,13 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
+import MainPage from "../components/MainPage";
 
 function App() {
-  return <div className="App">Smoke Test</div>;
+  return (
+    <div className="App">
+      <MainPage />
+    </div>
+  );
 }
 
 export default App;
