@@ -6,11 +6,9 @@ import About from "../About";
 
 const MainPage = () => {
   return (
-    <div className={styles.Main}>
+    <div className={styles.main}>
       <section className={styles.hero}>
-        <div className={styles.mainPic}>
-          <img src={mainPic} alt="main background" />
-        </div>
+        <img className={styles.pic} src={mainPic} alt="main background" />
         <div className={styles.name}>JONATHAN OBIANO</div>
       </section>
       <Links />
