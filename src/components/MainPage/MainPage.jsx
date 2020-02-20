@@ -9,7 +9,7 @@ const MainPage = () => {
     <div className={styles.main}>
       <section className={styles.hero}>
         <img className={styles.pic} src={mainPic} alt="main background" />
-        <div className={styles.name}>JONATHAN OBIANO</div>
+        <h1 className={styles.name}>JONATHAN OBIANO</h1>
       </section>
       <Links />
       <About />

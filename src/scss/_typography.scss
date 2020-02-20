@@ -68,23 +68,3 @@ p {
   margin: 0 0 0.5em 0;
   max-width: $type-linewidth;
 }
-
-.title {
-  margin-bottom: 3rem;
-  width: fit-content;
-  margin: 0 auto 30px auto;
-  padding-bottom: 10px;
-  border-bottom: 4px solid $blue;
-  font-size: 3rem;
-}
-
-.editor-title {
-  color: $blue;
-  margin: 0 auto 30px auto;
-  font-size: 3rem;
-  text-align: center;
-}
-
-.subhead {
-  text-align: center;
-}
