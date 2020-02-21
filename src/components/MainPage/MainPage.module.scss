@@ -31,3 +31,20 @@
     line-height: normal;
   }
 }
+
+@media (max-width: $breakpoint-medium) {
+  .hero {
+    .name {
+      font-size: 4rem;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-small) {
+  .hero {
+    .name {
+      font-size: 3rem;
+      line-height: 1;
+    }
+  }
+}
