@@ -1,0 +1,25 @@
+@import "../../scss/variables";
+
+svg {
+  display: block;
+  height: 5rem;
+  width: 6rem;
+  fill: $blue;
+  transition: all ease-in-out 0.2s;
+}
+
+svg:hover {
+  transform: translateY(-1rem);
+  fill: $light-blue;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 0 10vh 0;
+
+  li {
+    padding: 0 2vw 0 2vw;
+  }
+}
