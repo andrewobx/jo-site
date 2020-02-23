@@ -18,7 +18,7 @@ const Links = () => {
         </a>
       </li>
       <li>
-        <a class="button" href="https://twitter.com/jonathanobiano">
+        <a href="https://twitter.com/jonathanobiano">
           <svg
             role="img"
             viewBox="0 0 24 24"
@@ -42,6 +42,7 @@ const Links = () => {
           </svg>
         </a>
       </li>
+      <li id={styles.break} />
       <li>
         <a href="/">
           <svg
