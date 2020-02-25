@@ -2,8 +2,8 @@
 
 svg {
   display: block;
-  height: 5rem;
-  width: 6rem;
+  height: 9vh;
+  width: 12vh;
   fill: $blue;
   transition: all ease-in-out 0.2s;
 }
@@ -14,10 +14,15 @@ svg:hover {
 }
 
 .links {
+  background-color: $light-pink;
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
   padding: 10vh 0 10vh 0;
+  position: absolute;
+  z-index: 10;
+  margin-top: 200vh;
 
   li {
     padding: 0 2vw 0 2vw;
@@ -30,8 +35,8 @@ svg:hover {
 
 @media (max-width: $breakpoint-medium) {
   svg {
-    height: 3.5rem;
-    width: 4.5rem;
+    height: 6.75vh;
+    width: 10vh;
   }
 }
 
