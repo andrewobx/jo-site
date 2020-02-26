@@ -60,29 +60,29 @@
     transition: all ease-in-out 0.2s;
     background-color: rgba(0, 0, 0, 0.5);
 
-    h1,
-    h4 {
+    .musicHead,
+    .musicListen {
       color: $off-white;
     }
 
-    h4 {
+    .musicListen {
       border: 1px $off-white solid;
       margin: 0;
-      padding: 5px 50px 5px 50px;
+      padding: 1vh 10vw 1vh 10vw;
       font-family: $type-heading;
       font-style: italic;
       transition: all ease-in-out 0.2s;
     }
+
+    .musicLink:hover .musicListen {
+      background-color: $off-white;
+      color: $dark-accent;
+    }
   }
-}
 
-.music:hover {
-  opacity: 1;
-}
-
-.musicLink:hover h4 {
-  background-color: $off-white;
-  color: $dark-accent;
+  .music:hover {
+    opacity: 1;
+  }
 }
 
 @media (max-width: $breakpoint-medium) {
@@ -100,6 +100,10 @@
       font-size: 3rem;
       line-height: 1;
       letter-spacing: -0.1rem;
+    }
+
+    .musicHead {
+      font-size: 1.25rem;
     }
   }
 }

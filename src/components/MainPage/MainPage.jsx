@@ -18,9 +18,9 @@ const MainPage = () => {
             alt="secondary background"
           />
           <div className={styles.music}>
-            <h1>Check out my new music</h1>
+            <h1 className={styles.musicHead}>Check out my new music</h1>
             <a className={styles.musicLink} href="/">
-              <h4>LISTEN</h4>
+              <h4 className={styles.musicListen}>LISTEN</h4>
             </a>
           </div>
         </div>
