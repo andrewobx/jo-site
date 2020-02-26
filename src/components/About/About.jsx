@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section className={styles.about}>
       <div className={styles.text}>
-        <h2>Who I Am</h2>
+        <h2>Who is Jonathan?</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
           maxime illo eum dolorem voluptatem eveniet quos, fuga veniam eos!
