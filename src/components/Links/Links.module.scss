@@ -2,8 +2,8 @@
 
 svg {
   display: block;
-  height: 9vh;
-  width: 12vh;
+  height: 6vh;
+  width: 7vh;
   fill: $blue;
   transition: all ease-in-out 0.2s;
 }
@@ -38,9 +38,7 @@ svg:hover {
     height: 6.75vh;
     width: 10vh;
   }
-}
 
-@media (max-width: $breakpoint-small) {
   .links {
     flex-wrap: wrap;
 
@@ -54,4 +52,20 @@ svg:hover {
     flex-basis: 100%;
     height: 0;
   }
+}
+
+@media (max-width: $breakpoint-small) {
+  // .links {
+  //   flex-wrap: wrap;
+
+  //   li {
+  //     padding: 1vh 2vw 1vh 2vw;
+  //   }
+  // }
+
+  // #break {
+  //   display: block !important;
+  //   flex-basis: 100%;
+  //   height: 0;
+  // }
 }

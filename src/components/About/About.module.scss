@@ -5,7 +5,7 @@
   display: flex;
   position: absolute;
   z-index: 10;
-  margin-top: 229vh;
+  margin-top: 225vh;
 
   .text {
     width: 50%;
@@ -38,7 +38,7 @@
 
 @media (max-width: $breakpoint-medium) {
   .about {
-    margin-top: 226.75vh;
+    margin-top: 239.5vh;
   }
 }
 
