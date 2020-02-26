@@ -17,10 +17,10 @@ const MainPage = () => {
             src={secondaryPic}
             alt="secondary background"
           />
-          <div className={styles.musicLink}>
-            <h2>Check out my new music</h2>
-            <a href="/">
-              <h1>LISTEN</h1>
+          <div className={styles.music}>
+            <h1>Check out my new music</h1>
+            <a className={styles.musicLink} href="/">
+              <h4>LISTEN</h4>
             </a>
           </div>
         </div>
