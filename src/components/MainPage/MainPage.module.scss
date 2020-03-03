@@ -1,5 +1,9 @@
 @import "../../scss/variables";
 
+li {
+  display: flex;
+}
+
 .main {
   width: 100%;
   height: 100vh;
@@ -29,8 +33,21 @@
     a {
       color: $off-white;
       line-height: normal;
-      padding: 0px 2vw 0px 2vw;
+      margin: 0px 2vw 0px 2vw;
       font-size: 1.75rem;
+    }
+
+    a:after {
+      content: "";
+      display: block;
+      width: 0%;
+      border-bottom: 0.5vh solid $off-white;
+      transition: all ease-in-out 0.2s;
+    }
+
+    a:hover:after,
+    a:focus:after {
+      width: 100%;
     }
   }
 
