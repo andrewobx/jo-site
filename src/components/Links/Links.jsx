@@ -1,10 +1,14 @@
 import React from "react";
 import styles from "./Links.module.scss";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Links = () => {
+  AOS.init();
+
   return (
     <section className={styles.links}>
-      <li>
+      <li data-aos="fade-up">
         <a href="https://www.facebook.com/jonathankobiano">
           <svg
             id="facebook"
@@ -17,7 +21,7 @@ const Links = () => {
           </svg>
         </a>
       </li>
-      <li>
+      <li data-aos="fade-up">
         <a href="https://twitter.com/jonathanobiano">
           <svg
             role="img"
@@ -29,7 +33,7 @@ const Links = () => {
           </svg>
         </a>
       </li>
-      <li>
+      <li data-aos="fade-up">
         <a href="https://www.instagram.com/jonathanobiano/">
           <svg
             id="instagram"
@@ -43,7 +47,7 @@ const Links = () => {
         </a>
       </li>
       <li id={styles.break} />
-      <li>
+      <li data-aos="fade-up">
         <a href="/">
           <svg
             id="snapchat"
@@ -56,7 +60,7 @@ const Links = () => {
           </svg>
         </a>
       </li>
-      <li>
+      <li data-aos="fade-up">
         <a href="/">
           <svg
             id="youtube"
@@ -69,7 +73,7 @@ const Links = () => {
           </svg>
         </a>
       </li>
-      <li>
+      <li data-aos="fade-up">
         <a href="/">
           <svg
             id="spotify"
@@ -82,7 +86,7 @@ const Links = () => {
           </svg>
         </a>
       </li>
-      <li>
+      <li data-aos="fade-up">
         <a href="/">
           <svg
             id="soundcloud"

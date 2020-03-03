@@ -97,9 +97,8 @@ li {
     justify-content: center;
     align-items: center;
     display: flex;
-    opacity: 0;
     transition: all ease-in-out 0.2s;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
 
     .musicHead,
     .musicListen {
@@ -123,10 +122,6 @@ li {
       background-color: $off-white;
       color: $dark-accent;
     }
-  }
-
-  .music:hover {
-    opacity: 1;
   }
 }
 
