@@ -9,6 +9,14 @@ const MainPage = () => {
   return (
     <div className={styles.main}>
       <section className={styles.hero}>
+        <ul className={styles.navigation}>
+          <li>
+            <a href="/">About</a>
+          </li>
+          <li>
+            <a href="/">Media</a>
+          </li>
+        </ul>
         <img className={styles.mainPic} src={mainPic} alt="main background" />
         <h1 className={styles.name}>JONATHAN OBIANO</h1>
         <div>
