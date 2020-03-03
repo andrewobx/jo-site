@@ -19,7 +19,6 @@
   }
 
   .name {
-    background-color: rgba(0, 0, 0, 0.4);
     color: $off-white;
     width: 100%;
     height: fit-content;
@@ -35,6 +34,7 @@
     transform: translateY(-50%);
     line-height: normal;
     letter-spacing: -0.3rem;
+    text-shadow: 0vh 1.5vh 1.5vh #000000;
   }
 
   .secondPic {
@@ -63,6 +63,10 @@
     .musicHead,
     .musicListen {
       color: $off-white;
+    }
+
+    .musicHead {
+      letter-spacing: -0.2rem;
     }
 
     .musicListen {
@@ -104,6 +108,7 @@
 
     .musicHead {
       font-size: 1.25rem;
+      letter-spacing: -0.1rem;
     }
   }
 }
